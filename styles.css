@@ -1,0 +1,95 @@
+html{
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  #navbar{
+    position: fixed;
+    min-width: 250px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    border-right: solid;
+    border-color: white;
+    height: 100%;
+  }
+  
+  #navbar ul{
+    padding: 0;
+  }
+  
+  #navbar li{
+    color: white;
+    border-top: 2px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  
+  #navbar a{
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  header{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  #main-doc header{
+    text-align: left;
+    margin: 0px;
+  }
+  
+  #main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+  }
+  
+  section p{
+    margin: 15px;
+  }
+  
+  section li{
+    margin: 20px 0 0 20px;
+    max-width: 300px;
+    list-style: square;
+  }
+  
+  code{
+    display: block;
+    text-align: left;
+    position: relative;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 10px;
+  }
+  
+  @media only screen and (max-width: 815px){
+    #navbar{
+      position: absolute;
+      max-height: 275px;
+      border: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+   #main-doc{
+     position: relative;
+     margin-left: 0px;
+     margin-top: 325px;
+     padding: 50px;
+   }
+  }
+  
